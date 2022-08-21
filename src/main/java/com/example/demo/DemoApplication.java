@@ -39,8 +39,8 @@ public class DemoApplication {
         metas.addTaskList(t4);
         metas.addTaskList(t5);
 
-        System.out.println("Tareas Iniciales");
-        metas.printTasks();
+       /* System.out.println("Tareas Iniciales");
+        metas.printTasks();*/
 
         metas.removeTask("Recordar POO");//Registro el valor de la descripción de la tarea a eliminar
         System.out.println("Tareas pendientes");
